@@ -1,4 +1,10 @@
 # 下载不同版本
+创建的github项目，如果想要项目中使用，支持composer require就需要发布到下面平台
+https://packagist.org/packages/
+
+删除依赖
+composer remove zhouzeken/wxsdk
+
 
 引入不同版本符号意义
 波浪号版本范围 (~) ：composer require zhouzeken/wxsdk "~1.2.5"【相当于>=1.2.5 < 1.3.0小版本控制】
